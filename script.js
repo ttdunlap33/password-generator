@@ -70,15 +70,6 @@ function generatePassword() {
     passsword = passsword + computerChoice;
   }
 
-
-  console.log(upperArray)
-  console.log(lowerArray)
-  console.log(specialString)
-  console.log(numberArray)
-  console.log(options)
-
   passwordText.value = passsword;
 
 }
-
-
