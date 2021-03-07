@@ -23,6 +23,6 @@
 
 
 
-    [![screenshot-password-generator.png](https://i.postimg.cc/kXH9bvWg/password-generator.png)](https://postimg.cc/hfVHFxCk)
+    [![password-generator.png](https://i.postimg.cc/vBYCj45K/password-generator.png)](https://postimg.cc/mcnd12X3)
 
 
