@@ -1,22 +1,26 @@
 # Password Generator
-## Objective
 
-    User can access site to have a randomly selected password generated.
+### Objective
+
+    User can access site to have a random password generated.
 
 ## Parameters
 
     User will answer the prompts given to input password requirements with OK or Cancel.
     These requirements will inlcude:
-
-         How many characters do you want your password to be? Enter between 8-128
-         Would you like your password to include uppercase characters?
-         Would you like your password to include lowercase characters?
-         Would you like your password to include special characters?
-         Would you like your password to include numbers?
+    * 8-128 characters
+    * Upper or lower case characters
+    * Special characters
+    * Numbers
+         
+ ## Technologies Used
+    HTML5
+    CSS
+    JavaScript
 
 ## Password
 
-    User will receive a usable password in the password container that can then be copy and pasted. 
+    User will receive a usable password in the password container.
 
 
 
