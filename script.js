@@ -1,7 +1,7 @@
-
+// identifying the generate button with its id
 var generateBtn = document.querySelector("#generate");
 
-
+// generates a password based on all the criteria the user inputs
 function generatePassword() {
   var length = prompt("How many characters do you want your password to be? Enter between 8-128.");
 
@@ -28,13 +28,14 @@ function generatePassword() {
   var options = [];
 
 
-
+//setting variables for all character types used
   if (upper === true) {
     var upperArray = [];
-
+// turning charcodes into strings and pushing them into an array
     for (i = 65; i <= 90; i++) {
       upperArray.push(String.fromCharCode(i));
     }
+    // combinging arrays 
     options = options.concat(upperArray);
 
   } if (lower === true) {
@@ -62,7 +63,7 @@ function generatePassword() {
   }
 
 
-
+// randomly selecting charcters from the arrays and rounding all numbers
 
   for (i = 0; i < length; i++) {
     var index = Math.floor(Math.random() * options.length);

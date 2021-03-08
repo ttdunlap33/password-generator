@@ -1,10 +1,10 @@
 # Password Generator
 
-### Objective
+## Objective
 
     User can access site to have a random password generated.
 
-## Parameters
+### Parameters
 
     User will answer the prompts given to input password requirements with OK or Cancel.
     These requirements will inlcude:
@@ -13,19 +13,19 @@
     * Special characters
     * Numbers
          
- ## Technologies Used
+ ### Technologies Used
     HTML5
     CSS
     JavaScript
 
-## Password
+### Password
 
     User will receive a usable password in the password container.
 
 
 
 
-## URL & Screenshot
+### Website URL
 https://ttdunlap33.github.io/password-generator/
 
 
